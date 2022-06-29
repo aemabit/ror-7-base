@@ -1,0 +1,12 @@
+<h1>Products:</h1>
+
+<% @products.each do |item| %>
+    <%= link_to product_path(item.id), class:'product' do %>
+        <h2> - <%= item.title %></h2>
+        <% if item.price? %>
+            <span>$ <%= item.price %></span>
+        <% else %>
+            <span>RFQ</span>
+        <% end %>
+    <% end %>
+<% end %>

@@ -1,0 +1,11 @@
+ps4:
+  title: PlayStation 4
+  description: The PlayStation 4 system is the successor to the PlayStation 3 system.
+  price: 299.99
+  id: 123
+
+switch:
+  title: Nintendo Switch
+  description: Only console
+  price: 200
+  id: 1234
